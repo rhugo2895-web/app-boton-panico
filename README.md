@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 🚨 App Botón de Pánico
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📱 Descripción del proyecto
 
-## Get started
+Esta aplicación móvil fue desarrollada con el objetivo de brindar una herramienta de apoyo en situaciones de emergencia.
+Cuenta con un botón de pánico que, al ser presionado, activa diferentes funciones del dispositivo como la ubicación, el micrófono y el sensor de movimiento.
 
-1. Install dependencies
+La idea principal es simular una aplicación que pueda ayudar a una persona a reaccionar rápidamente ante una situación de riesgo.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## ⚙️ Tecnologías utilizadas
 
-   ```bash
-   npx expo start
-   ```
+* React Native (Expo)
+* Firebase (configurado para futuras funciones)
+* Sensores del dispositivo:
 
-In the output, you'll find options to open the app in a
+  * GPS (ubicación)
+  * Acelerómetro (movimiento)
+  * Micrófono (grabación de audio)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Cómo ejecutar la aplicación
 
-## Get a fresh project
+1. Clonar el repositorio:
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+git clone https://github.com/rhugo2895-web/app-boton-panico.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Entrar a la carpeta:
 
-## Learn more
+```
+cd app-boton-panico
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Instalar dependencias:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+npm install
+```
 
-## Join the community
+4. Ejecutar la app:
 
-Join our community of developers creating universal apps.
+```
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🔐 Control de versiones
+
+Durante el desarrollo del proyecto se utilizó Git para llevar un control de cambios.
+
+Se realizaron commits conforme se avanzaba en:
+
+* Creación de interfaces (login, registro, botón de pánico)
+* Integración de sensores
+* Configuración del proyecto
+* Corrección de errores
+
+Esto permite ver la evolución del proyecto paso a paso dentro del repositorio.
+
+---
+
+## 👨‍💻 Autor
+
+Hugo
